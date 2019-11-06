@@ -60,3 +60,8 @@ $(document).ready(function() {
     });
 
 });
+
+
+/* pop-up index gallary */
+
+let popUp 
