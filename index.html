@@ -33,7 +33,7 @@
       </nav>
       <div class="hero-text-box">
         <h1><span>Stormkonst</span></h1>
-        <a class="btn btn-full" href="#">KONST</a>
+        <a class="btn btn-full" href="konst.html">KONST</a>
         <a class="btn btn-ghost" href="#">KÖP</a>
       </div>
     </header>
@@ -41,48 +41,150 @@
     <section class="section-photos js--section-photos">
       <ul class="photos-showcase clearfix">
         <li>
-          <figure class="art-photo">
-            <img src="img/freak.jpg" alt="freak" />
-          </figure>
+          <div class="art-photo">
+            <img src="img/freak.jpg" alt="freak" data-modal-target="#modal" />
+          </div>
         </li>
+        <div class="modal" id="modal">
+          <div class="modal-header">
+            <div class="title">Freak</div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="img/freak.jpg" class="modal-img" />
+          </div>
+        </div>
+
         <li>
-          <figure class="art-photo">
-            <img src="img/deadmen.jpg" alt="deadmen" />
-          </figure>
+          <div class="art-photo">
+            <img
+              src="img/deadmen.jpg"
+              alt="deadmen"
+              data-modal-target="#modal"
+            />
+          </div>
         </li>
+        <div class="modal" id="modal">
+          <div class="modal-header">
+            <div class="title">Dead men</div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="img/deadmen.jpg" />
+          </div>
+        </div>
         <li>
-          <figure class="art-photo">
-            <img src="img/regnkatter.jpg" alt="regnkatter" />
-          </figure>
+          <div class="art-photo">
+            <img
+              src="img/regnkatter.jpg"
+              alt="regnkatter"
+              data-modal-target="#modal"
+            />
+          </div>
         </li>
+        <div class="modal" id="modal">
+          <div class="modal-header">
+            <div class="title">Dead men</div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="img/regnkatter.jpg" />
+          </div>
+        </div>
         <li>
-          <figure class="art-photo">
-            <img src="img/rainbow.jpg" alt="unicorncat" />
-          </figure>
+          <div class="art-photo">
+            <img
+              src="img/rainbow.jpg"
+              alt="unicorncat"
+              data-modal-target="#modal"
+            />
+          </div>
         </li>
+        <div class="modal" id="modal">
+          <div class="modal-header">
+            <div class="title">Dead men</div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="img/rainbow.jpg" class="modal-img" />
+          </div>
+        </div>
       </ul>
       <ul class="photos-showcase clearfix">
         <li>
-          <figure class="art-photo">
-            <img src="img/fanzine.jpg" alt="fanzine" />
-          </figure>
+          <div class="art-photo">
+            <img
+              src="img/fanzine.jpg"
+              alt="fanzine"
+              data-modal-target="#modal"
+            />
+          </div>
         </li>
+        <div class="modal" id="modal">
+          <div class="modal-header">
+            <div class="title">Dead men</div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="img/fanzine.jpg" class="modal-img" />
+          </div>
+        </div>
         <li>
-          <figure class="art-photo">
-            <img src="img/bladnut.jpg" alt="blad och nötter" />
-          </figure>
+          <div class="art-photo" id="imgbox">
+            <img
+              src="img/bladnut.jpg"
+              alt="blad och nötter"
+              data-modal-target="#modal"
+            />
+          </div>
         </li>
+        <div class="modal" id="modal">
+          <div class="modal-header">
+            <div class="title">Dead men</div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="img/bladnut.jpg" class="modal-img" />
+          </div>
+        </div>
         <li>
-          <figure class="art-photo">
-            <img src="img/nocat.jpg" alt="katt nej" />
-          </figure>
+          <div class="art-photo">
+            <img
+              src="img/nocat.jpg"
+              alt="katt nej"
+              data-modal-target="#modal"
+            />
+          </div>
         </li>
+        <div class="modal" id="modal">
+          <div class="modal-header">
+            <div class="title">Dead men</div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="img/nocat.jpg" class="modal-img" />
+          </div>
+        </div>
         <li>
-          <figure class="art-photo">
-            <img src="img/vovveregn.jpg" alt="regn och hundar" />
-          </figure>
+          <div class="art-photo">
+            <img
+              src="img/vovveregn.jpg"
+              alt="regn och hundar"
+              data-modal-target="#modal"
+            />
+          </div>
         </li>
+        <div class="modal" id="modal">
+          <div class="modal-header">
+            <div class="title">Dead men</div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="img/vovveregn.jpg" class="modal-img" />
+          </div>
+        </div>
       </ul>
+      <div id="overlay"></div>
     </section>
     <section class="about-sk" id="about">
       <div class="row">
