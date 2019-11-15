@@ -115,3 +115,5 @@ function closeModal(modal) {
   modal.classList.remove("active");
   overlay.classList.remove("active");
 }
+
+/* Message when sending form */

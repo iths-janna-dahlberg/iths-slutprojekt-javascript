@@ -36,14 +36,14 @@
         <div class="row">
             <h2>NYHETSBREV</h2>
         </div>
-        <div class="row">
-            <form method="post" action="#" class="contact-form">
+        <p class="row">
+            <form class="contact-form" id="enterName">
                 <div class="row">
                     <div class="col span-1-of-3">
                         <label>Namn</label>
                     </div>
                     <div class="col span-2-of-3">
-                        <input type="text" name="name" placeholder="Ditt namn" required>
+                        <input type="text" name="name" id="name" placeholder="Ditt namn" required>
                     </div>
                 </div>
                 <div class="row">
@@ -87,11 +87,12 @@
                         <label>&nbsp;</label>
                     </div>
                     <div class="col span-2-of-3">
-                        <input type="submit" value="SKICKA!">
-                    </div>
+                        <input type="submit" value="SKICKA!" class="send" onclick="writeName();"/>
+                    </div>  
                 </div>
             </form>
         </div>
+      <p id="thankYouMsg"></p>
     </section>
     <footer>
         <div class="row">
