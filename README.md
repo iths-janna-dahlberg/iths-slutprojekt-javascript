@@ -10,8 +10,8 @@ Indexsidan länkar också till 2 separata sidor: Formulär/nyhetsbrevsprenumerat
 
 1.  Indexsidan: när du klickar på bild/img (i sektion med bilder) på indexsidan så kommer den valda bilden upp som ett pop-up fönster med vald bild och beskrivande text av bilden.
 
-2.  Kontaktsida: När du fyllt i formuläret och klickar på skicka så kommer du till ny sida där du får ett meddelande/tack: "Tack xxx för ditt meddelande!"
+2.  Kontaktsida: När du fyllt i formuläret och klickar på skicka så kommer du till ny sida där du får ett meddelande/tack: "Tack xxx för ditt meddelande!" -EJ KLAR
 
-3.  Konstsida: När du klickar på bild(en bild i respektive kategori av konstform) får du up ett pop-up galleri på fler bilder av samma typ av konst av konstnären.
+
 
 ## Libraries
